@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-02-15T15:37:57.238+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-retail-journal/react/settings/wcm/templates/we-retail-react-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blog"
+        sling:resourceType="we-retail-journal/react/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title_brand
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/image"
+                    fileReference="/content/dam/we-retail-journal/brand/journal_branding.png">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </title_brand>
+                <header_image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/image"
+                    fileReference="/content/dam/we-retail/en/activities/surfing/surfing_5.jpg"/>
+                <article_header
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;h3>Here's our blog&lt;/h3>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </article_header>
+                <paragraph_1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;p>Vestibulum eget fringilla orci. Sed et libero commodo, gravida nunc eu, fermentum justo. In ornare iaculis dui, sed laoreet risus sodales id. Vivamus justo mauris, luctus ut nibh sit amet, semper posuere tellus. Fusce vitae libero consequat, consectetur enim nec, gravida lectus. Cras dignissim nisl ullamcorper ante faucibus dictum. In euismod efficitur iaculis. Suspendisse potenti. Integer aliquet lacus egestas, scelerisque nulla nec, dignissim lectus. Fusce facilisis leo dui, ac rutrum diam aliquam quis. Maecenas tempor euismod accumsan. In viverra erat non viverra euismod. Duis feugiat, velit quis rhoncus bibendum, dolor massa tempus mi, et efficitur lorem turpis imperdiet tortor. Mauris interdum, nunc vel ultricies aliquam, ipsum eros fermentum turpis, ac auctor elit arcu nec libero. Aenean egestas leo at eros volutpat, a finibus magna rhoncus.&lt;/p>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_1>
+                <paragraph_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <responsivegrid_1001
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <image_898881992
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="weretail/components/content/image"
+                            fileReference="/content/dam/we-retail/en/activities/surfing/beach-walking.jpg">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="hide"/>
+                            </cq:responsive>
+                        </image_898881992>
+                        <image_23456
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="weretail/components/content/image"
+                            fileReference="/content/dam/we-retail/en/activities/surfing/man-wetsuit.jpg">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </image_23456>
+                    </responsivegrid_1001>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </paragraph_2>
+                <footer_terms
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;span>2018 All rights reserved&lt;/span>&lt;span>Terms of use &amp; privacy policy&lt;/span>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </footer_terms>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <aboutus/>
+    <weather/>
+</jcr:root>

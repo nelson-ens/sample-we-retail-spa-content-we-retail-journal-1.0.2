@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-02-15T15:37:57.238+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-retail-journal/angular/settings/wcm/templates/we-retail-angular-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About us"
+        sling:resourceType="we-retail-journal/angular/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title_brand
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/image"
+                    fileReference="/content/dam/we-retail-journal/brand/journal_branding.png">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </title_brand>
+                <header_image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/image"
+                    fileReference="/content/dam/we-retail/en/people/womens/women_6.jpg"/>
+                <article_header
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;h3>About us&lt;/h3>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </article_header>
+                <paragraph_1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ita enim se Athenis collocavit, ut sit paene unus ex Atticis, ut id etiam cognomen videatur habiturus.&lt;/p>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_1>
+                <paragraph_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ita enim se Athenis collocavit, ut sit paene unus ex Atticis, ut id etiam cognomen videatur habiturus. Sed utrum hortandus es nobis, Luci, inquit, an etiam tua sponte propensus es? Mihi vero, inquit, placet agi subtilius et, ut ipse dixisti, pressius. Ait enim se, si uratur, Quam hoc suave! dicturum. Nos quidem Virtutes sic natae sumus, ut tibi serviremus, aliud negotii nihil habemus. Ita relinquet duas, de quibus etiam atque etiam consideret. Hanc quoque iucunditatem, si vis, transfer in animum; Duo Reges: constructio interrete. Itaque et manendi in vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. Hoc est non modo cor non habere, sed ne palatum quidem. Claudii libidini, qui tum erat summo ne imperio, dederetur.&lt;/p>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_2>
+                <paragraph_3
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;p>Pellentesque a mi sed justo pulvinar cursus. Curabitur varius metus id velit molestie, vitae posuere tellus rhoncus. Integer gravida risus eget tortor mollis auctor. Nullam placerat porta interdum. Morbi nec elit eu magna mollis iaculis ac ac lacus. Nullam non gravida nisi. Sed non justo ut felis accumsan scelerisque. Donec mollis non quam at imperdiet. Nunc porta dignissim risus in vehicula. Sed et mauris ut metus tempor scelerisque.&lt;/p>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_3>
+                <paragraph_4
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;p>Etiam turpis lectus, semper sit amet arcu sed, lacinia imperdiet ipsum. Praesent eget viverra lorem, in dapibus eros. Curabitur non rhoncus felis. Aliquam facilisis diam quis tellus fermentum cursus. Sed molestie purus sit amet dui porttitor lacinia. Duis posuere nisl a leo egestas, at aliquam risus hendrerit. Sed at bibendum orci.&lt;/p>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_4>
+                <footer_terms
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/text"
+                    text="&lt;span>2018 All rights reserved&lt;/span>&lt;span>Terms of use &amp; privacy policy&lt;/span>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </footer_terms>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
